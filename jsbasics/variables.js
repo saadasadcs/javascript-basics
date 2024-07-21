@@ -1,6 +1,6 @@
 const id = 70109951
 
-let name = "Saadiee" // best approach is, use the let keyword for intilize a variable
+let name = "Saadiee" // best approach is, use the let keyword to declare a variable, you can overwrite the value but cannot declared a variable with same name again
 
 var email = "saadiee@gmail.com"
 
