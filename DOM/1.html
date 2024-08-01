@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM learning</title>
     <style>
         body {
@@ -17,24 +16,30 @@
         }
         .list-item {
             list-style-type: none;
-            padding: 5px 10px;
+            padding: 10px;
             background-color: #424242;
             margin-bottom: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
         }
         .list-item:hover {
             background-color: #616161;
-            cursor: pointer;
+        }
+        input[type="password"] {
+            padding: 10px;
+            margin-bottom: 10px;
+            width: 200px;
         }
     </style>
 </head>
 <body>
     <div>
-        <h1 id="title" class="heading">Names of Students <span style="display: none;">test text</span></h1>
+        <h1 id="title" class="heading">DOM learning on Chai aur code <span style="display: none;">test text</span></h1>
         <h2>Saad</h2>
         <h2>Asad</h2>
         <h2>Ali</h2>
         <p>Umair</p>
-        <input type="password" name="password" id="password" placeholder="Enter your password">
+        <input type="password" id="passwordInput" placeholder="Enter your password">
         <ul>
             <li class="list-item">one</li>
             <li class="list-item">two</li>
